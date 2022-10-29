@@ -1,0 +1,34 @@
+rm(list = ls())
+
+coronaData <- read.csv("data/covid_19_data.csv") # doc file csv
+
+nrow(coronaData) # bao nhieu dong 
+
+ncol(coronaData) # bao nhieu cot
+
+head(coronaData, 10) # 10 dong dau
+
+names(coronaData) # in ra ten cac cot 
+
+countryCorona <- coronaData['Country.Region'] # luu cot Country.Region cho countryCorona
+
+maxConfirmedCases <- max(coronaData['Confirmed']) # so luong ca lay nhiem cao nhat 
+
+coronaChina <- coronaData[which(coronaData$Country.Region == 'Mainland China'),] # du lieu tai Mainlan China
+
+maxCountryConfirmedCorona <- 
+  coronaData[which(coronaData$Confirmed==maxConfirmedCases),]['Country.Region'] # dong du lieu co Cot Confirmed = so ca mac cao nhat 
+
+maxStateConfirmedCorona <-
+  coronaData[which(coronaData$Confirmed==maxConfirmedCases),]['Province.State']
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,26 @@
+{
+    "id": "92CB0131",
+    "path": "C:/lab02_1/instruction.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "2323998977",
+    "contents": "",
+    "dirty": false,
+    "created": 1648955202250.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "15,0",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1648955290,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1648955290245,
+    "read_only": false,
+    "read_only_alternatives": []
+}
